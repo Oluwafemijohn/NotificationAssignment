@@ -13,10 +13,11 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
 
         display = findViewById(R.id.textView)
-
         change()
 
     }
+
+//    change the content of the Textview
     private fun change(){
         val inactive = intent.getStringExtra("data")
         if(inactive != null){

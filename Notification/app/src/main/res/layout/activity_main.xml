@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<!--    Send Notification button-->
+
     <Button
         android:id="@+id/SendNotification"
         android:layout_width="wrap_content"
@@ -19,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints,OnClick" />
 
-
+<!--Move notificaton button-->
     <Button
         android:id="@+id/moveToNextActivity"
         android:layout_width="wrap_content"
